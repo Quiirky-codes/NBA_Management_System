@@ -61,8 +61,9 @@ For your reference, here are the Table IDs used in the project:
 
 # Contributors
 
-* @Amith M Jain
-* @sumanthweb8
-* @Dheeraj44444
+* Amith M Jain
+* Sumanth Rao
+* Dheeraj N
+* Aditya P
 
 
