@@ -1,0 +1,99 @@
+<html>
+<title>Q4</title>
+<body>
+<form action="../php/q4.php" method="post">
+<link rel="stylesheet" href="../css/w3.css">
+<style>
+.button {
+  background-color: #424242; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+}
+.container{  
+  display: flex;
+  #justify-content: center;
+  align-items: center;
+  height: 200px;
+   }
+
+.par{
+background-color:rgb(6, 25, 34);
+color:white;
+font-size:20px;
+}
+
+.lab{
+padding:10px;
+color : #424242;
+display:block;
+}
+
+.lab1 {
+    
+}
+.lab1:after{
+    content:"\a";
+    white-space: pre;
+}
+
+d{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+</style>
+<header class="w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>VIEW</b></h1>
+    <h6><span class="w3-tag">ALL COACHES</span></h6>
+  </header>
+
+<header class="w3-wide" id="home">
+    <img class="w3-image" src="../jpg/22.jpg" >
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white"></h1>
+      <h6>
+
+
+<div class="container">
+<div class="lab">
+<h3 class="lab" for="team">Choose a team:</h3>
+<select name="team" id="team">
+    <option value="LAL">LAL</option>
+  <option value="ATL">ATL</option>
+  <option value="BOS">BOS</option>
+  <option value="CLT">CLT</option>
+  <option value="GSW">GSW</option>
+<option value="SAC">SAC</option>
+</select>
+</div>
+</div>
+<button class="button" type="submit">SUBMIT</button>
+<button class="button" onclick="location.href='query.html'" type="button">BACK</button>
+    </div>
+  </header>
+
+
+</body>
+</html>

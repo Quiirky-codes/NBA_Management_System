@@ -1,0 +1,112 @@
+<html>
+<title>INSERT</title>
+<body>
+<form action="../php/game.php" method="post">
+<link rel="stylesheet" href="../css/w3.css">
+<style>
+.button {
+  background-color: #8894b4; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+}
+.container{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+   }
+
+.par{
+background-color:rgb(6, 25, 34);
+color:white;
+font-size:20px;
+}
+
+.lab{
+padding:10px;
+color:white;
+}
+
+
+</style>
+<header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>INSERT</b></h1>
+    <h6><span class="w3-tag">GAME</span></h6>
+  </header>
+
+<header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="../jpg/18.jpg" >
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white"></h1>
+      <h6><div class="container">
+<div class="lab">
+<label class="lab">GAME ID</label>
+<input type="text" name="gid"><br></div>
+
+<div class="lab">
+<label class="lab">HOME ID</label>
+<select name="h" id="team">
+    <option value="LAL">LAL</option>
+  <option value="ATL">ATL</option>
+  <option value="BOS">BOS</option>
+  <option value="CLT">CLT</option>
+  <option value="GSW">GSW</option>
+<option value="SAC">SAC</option>
+</select>
+</div>
+<div class="lab">
+<label class="lab">AWAY ID</label>
+<select name="a" id="team">
+    <option value="LAL">LAL</option>
+  <option value="ATL">ATL</option>
+  <option value="BOS">BOS</option>
+  <option value="CLT">CLT</option>
+  <option value="GSW">GSW</option>
+<option value="SAC">SAC</option>
+</select>
+</div>
+<div class="lab">
+<label class="lab">STADIUM</label>
+<select name="sid" id="team">
+    <option value="2001">CRYPTO.COM ARENA</option>
+  <option value="2002">TD GARDEN</option>
+  <option value="2003">CHASE CENTER</option>
+  <option value="2004">SPECTRUM CENTER</option>
+  <option value="2005">STATE FARM ARENA</option>
+<option value="2006">GOLDEN 1 CENTER</option>
+</select>
+</div>
+
+<div class="lab">
+<label class="lab">DATE</label>
+<input type="date" name="d"></div>
+<div class="lab">
+<label class="lab">SPONSOR</label>
+<select name="sp" id="team">
+    <option value="5001">KIA</option>
+  <option value="5002">NIKE</option>
+  <option value="5003">JORDON</option>
+  <option value="5004">AT&T</option>
+  <option value="5005">MOTOROLA</option>
+<option value="5006">FEDEX</option>
+<option value="5007">ADIDAS</option>
+
+</select>
+</div>
+</div>
+<button class="button" type="submit">SUBMIT</button>
+<button class="button" onclick="location.href='insert.html'" type="button">BACK</button>
+    </div></div>
+  </header>
+
+
+</body>
+</html>

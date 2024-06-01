@@ -1,0 +1,72 @@
+<html>
+<title>UPDATE</title>
+<body>
+<form action="../php/fix.php" method="post">
+<link rel="stylesheet" href="../css/w3.css">
+<style>
+.button {
+  background-color: #33aac7; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+}
+.container{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+   }
+
+.par{
+background-color:rgb(6, 25, 34);
+color:white;
+font-size:20px;
+}
+
+.lab{
+padding:10px;
+color:white;
+}
+
+
+</style>
+<header class="w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>UPDATE</b></h1>
+    <h6><span class="w3-tag">FIXTURE</span></h6>
+  </header>
+
+<header class="w3-wide" id="home">
+    <img class="w3-image" src="../jpg/16.jpg" >
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white"></h1>
+      <h6><div class="container">
+<div class="lab">
+<label class="lab">GAME ID</label>
+<input type="text" name="id" pattern="40[0-9]{2}"><br></div><div class="lab">
+  <label class="lab">WINNER ID</label>
+  <select name="res" id="team">
+      <option value="LAL">LAL</option>
+    <option value="ATL">ATL</option>
+    <option value="BOS">BOS</option>
+    <option value="CLT">CLT</option>
+    <option value="GSW">GSW</option>
+  <option value="SAC">SAC</option>
+  </select>
+  </div>
+</div>
+<button class="button" onclick="location.href='view_game2.php'" type="button">FIXTURES</button>
+<button class="button" type="submit">SUBMIT</button>
+<button class="button" onclick="location.href='tools.html'" type="button">BACK</button>
+   </h6></div>
+  </header>
+
+
+</body>
+</html>
