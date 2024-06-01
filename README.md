@@ -63,12 +63,15 @@ For your reference, here are the Table IDs used in the project:
 
 # Snap Shots
 * Home Page
+  
      ![Screenshot 2024-06-01 214553](https://github.com/Quiirky-codes/NBA_Management_System/assets/111241572/9306b150-edaa-44a2-95e0-040cb543b3bb)
 
 * Login Page
+  
      ![Screenshot 2024-06-01 214612](https://github.com/Quiirky-codes/NBA_Management_System/assets/111241572/a2670908-6247-4e58-9914-36ef94cca5dd)
 
 * Insert Page
+  
      ![Screenshot 2024-06-01 214731](https://github.com/Quiirky-codes/NBA_Management_System/assets/111241572/73113db0-4f52-4f1f-a58f-5f44292fbb3b)
 
      
